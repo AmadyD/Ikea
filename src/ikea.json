@@ -1,0 +1,51 @@
+[
+    {   "imageArticle": [{
+                            "src": "https://www.ikea.com/fr/fr/images/products/taernoe-table-2-chairs-outdoor-red-light-brown-stained__0776099_PE757709_S5.JPG?f=xs",
+                            "srcset": "https://www.ikea.com/fr/fr/images/products/taernoe-table-2-chairs-outdoor-red-light-brown-stained__0776099_PE757709_S5.JPG?f=xs 500w,https://www.ikea.com/fr/fr/images/products/taernoe-table-2-chairs-outdoor-red-light-brown-stained__0776099_PE757709_S5.JPG?f=xxs 400w,https://www.ikea.com/fr/fr/images/products/taernoe-table-2-chairs-outdoor-red-light-brown-stained__0776099_PE757709_S5.JPG?f=xxxs 300w",
+                            "sizes": "(min-width: 768px) 25vw, (min-width: 480px) 33vw, 50vw",
+                            "alt" : "IKEA TÄRNÖ Table+2 chaises, extérieur"
+                        }],
+        "nomArticle": "TARNO",
+        "description": "Table + 2 chaises extérieures",
+        "prix": 48.36,
+        "don": 0.97,
+        "note": 3.5
+    },
+    {
+        "imageArticle": [{
+            "src": "https://www.ikea.com/fr/fr/images/products/kuddarna-chair-cushion-outdoor-beige__0684577_PE721230_S5.JPG?f=xs",
+            "srcset": "https://www.ikea.com/fr/fr/images/products/kuddarna-chair-cushion-outdoor-beige__0684577_PE721230_S5.JPG?f=xs 500w,https://www.ikea.com/fr/fr/images/products/kuddarna-chair-cushion-outdoor-beige__0684577_PE721230_S5.JPG?f=xxs 400w,https://www.ikea.com/fr/fr/images/products/kuddarna-chair-cushion-outdoor-beige__0684577_PE721230_S5.JPG?f=xxxs 300w",
+            "sizes": "(min-width: 768px) 25vw, (min-width: 480px) 33vw, 50vw",
+            "alt" : "IKEA KUDDARNA Coussin de chaise, extérieur"
+        }],
+        "nomArticle": "KUDDARNA",
+        "description": "Coussin de chaise, extérieur,36x32 cm",
+        "prix": 5.99,
+        "don": 0.06,
+        "note": 5 
+    },    {
+        "imageArticle": [{
+            "src": "https://www.ikea.com/fr/fr/images/products/dragan-4-piece-bathroom-set__0711858_PE728526_S5.JPG?f=xs",
+            "srcset": "https://www.ikea.com/fr/fr/images/products/dragan-4-piece-bathroom-set__0711858_PE728526_S5.JPG?f=xs 500w,https://www.ikea.com/fr/fr/images/products/dragan-4-piece-bathroom-set__0711858_PE728526_S5.JPG?f=xxs 400w,https://www.ikea.com/fr/fr/images/products/dragan-4-piece-bathroom-set__0711858_PE728526_S5.JPG?f=xxxs 300w",
+            "sizes": "(min-width: 768px) 25vw, (min-width: 480px) 33vw, 50vw",
+            "alt" : "IKEA KUDDARNA Coussin de chaise, extérieur"
+        }],
+        "nomArticle": "DRAGAN",
+        "description": "Accesoires bain, 4 pièces",
+        "prix": 9.99,
+        "don": 0.10,
+        "note": 4.6 
+    },    {
+        "imageArticle": [{
+            "src": "https://www.ikea.com/fr/fr/images/products/kolbjoern-cabinet-indoor-outdoor-green__0762731_PE752182_S5.JPG?f=xs",
+            "srcset": "https://www.ikea.com/fr/fr/images/products/kolbjoern-cabinet-indoor-outdoor-green__0762731_PE752182_S5.JPG?f=xs 500w,https://www.ikea.com/fr/fr/images/products/kolbjoern-cabinet-indoor-outdoor-green__0762731_PE752182_S5.JPG?f=xxs 400w,https://www.ikea.com/fr/fr/images/products/kolbjoern-cabinet-indoor-outdoor-green__0762731_PE752182_S5.JPG?f=xxxs 300w",
+            "sizes": "(min-width: 768px) 25vw, (min-width: 480px) 33vw, 50vw",
+            "alt" : "IKEA KUDDARNA Coussin de chaise, extérieur"
+        }],
+        "nomArticle": "KOLBJÖRN",
+        "description": "Elément rangement inérieur/extérieur, 80x81 cm",
+        "prix": 70,
+        "don": 1.15,
+        "note": 5.0 
+    }
+]
