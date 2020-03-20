@@ -3,26 +3,18 @@ import React from 'react';
 import styled from 'styled-components';
 import articles from './ikea.json';
 import './App.css';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 import Entete from './components/entete/index';
 import Article from './components/article/index';
-import Panier from './components/panier/index';
 
-const routing = (
-  <Router>
-    <div>
-      <Route path="/" component={App} />
-      <Route path="/panier" component={Panier} />
-    </div>
-  </Router>
-)
 
 function App() {
   return (
     <div className="App">
-
       <Entete></Entete>
+      <AccueilText >
+        <h2>Créez l'ambiance avec l'éclairage connecté</h2>
+      </AccueilText>
       <img src="https://www.ikea.com/images/0a/f3/0af3aa074c4708e151ce5ddcfae01f9d.jpg?f=s" srcset="https://www.ikea.com/images/0a/f3/0af3aa074c4708e151ce5ddcfae01f9d.jpg?f=xxxl 1400w,
                            https://www.ikea.com/images/0a/f3/0af3aa074c4708e151ce5ddcfae01f9d.jpg?f=xxl 950w,
                            https://www.ikea.com/images/0a/f3/0af3aa074c4708e151ce5ddcfae01f9d.jpg?f=xl 800w,
@@ -66,6 +58,20 @@ function App() {
     </div>
   );
 }
+
+const AccueilText = styled.div`
+font: 100% sans-serif;
+font-size: .875rem;
+font-family: 'Noto IKEA', 'Noto Sans', 'Roboto', 'Open Sans', -apple-system, sans-serif !important;
+color: #111;
+line-height: 1.6;
+font-weight: 400;
+outline: none;
+box-sizing: border-box;
+padding: 0;
+margin: 0 1rem 2rem;
+margin-bottom: 1rem;
+`;
 
 const LienArticles = styled.div`
 margin-top:10%;

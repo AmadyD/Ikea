@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import Entete from '../entete/index';
 
 const Panier=()=>{
     return(
         <div>
-            <p>pipipi</p>
+            <Entete></Entete>
         </div>
     )
 }

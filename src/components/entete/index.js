@@ -50,7 +50,7 @@ const Entete = ()=>{
                             {/* <span class="hnf-header__sr-only">IKEA</span> */}
                         </a>
             </LogoContainer>
-            <Panier><a href="#"><img src={panImage}></img></a></Panier>
+            <Panier><a href="/panier"><img src={panImage}></img></a></Panier>
             </HeaderContainer>
             <FormStyled role="search" action="https://www.ikea.com/fr/fr/search/" class="search-box">
                 <FormContainer class="search-field">
@@ -59,9 +59,6 @@ const Entete = ()=>{
                     </FormContainer>
               </FormStyled>
                 <MainContainer>
-                <AccueilText >
-                <h2>Créez l'ambiance avec l'éclairage connecté</h2>
-                </AccueilText>
                 </MainContainer>
               </div>
             )
@@ -232,20 +229,6 @@ margin: 0 1rem;
 `
 const MainContainer = styled.div`
 
-`;
-
-const AccueilText = styled.div`
-font: 100% sans-serif;
-font-size: .875rem;
-font-family: 'Noto IKEA', 'Noto Sans', 'Roboto', 'Open Sans', -apple-system, sans-serif !important;
-color: #111;
-line-height: 1.6;
-font-weight: 400;
-outline: none;
-box-sizing: border-box;
-padding: 0;
-margin: 0 1rem 2rem;
-margin-bottom: 1rem;
 `;
 const AccueilImage = styled.div`
 font: 100% sans-serif;
